@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlalchemy>=2
+pydantic-settings
+python-dotenv
+pipecat-ai[sarvam,silero,webrtc,runner]>=1.12

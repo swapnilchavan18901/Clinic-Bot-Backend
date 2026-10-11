@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Secrets — never commit (holds SARVAM_API_KEY)
+.env
+
+# Local database — created automatically, holds test bookings and phone numbers
+*.db
+*.db-journal
+
+# Test / tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store

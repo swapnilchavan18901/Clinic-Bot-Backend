@@ -1,0 +1,22 @@
+[project]
+name = "clinic-bot"
+version = "0.1.0"
+description = "Clinic receptionist voice bot — FastAPI + SQLite + Pipecat (Sarvam)"
+readme = "README.md"
+authors = [
+    { name = "Swapnil Chavan", email = "swapnilchavan18901@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.143.0",
+    "pipecat-ai[runner,sarvam,silero,webrtc]>=1.12",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
